@@ -19,7 +19,11 @@
     "onlyBuiltDependencies": [
       "@parcel/watcher",
       "esbuild"
-    ]
+    ],
+    "overrides": {
+      "vite": "^6.2.3",
+      "parse-git-config": "^3.0.0"
+    }
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.62.0",
