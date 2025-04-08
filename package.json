@@ -21,7 +21,7 @@
       "esbuild"
     ],
     "overrides": {
-      "vite": "^6.2.3",
+      "vite": "^6.2.5",
       "parse-git-config": "^3.0.0"
     }
   },
