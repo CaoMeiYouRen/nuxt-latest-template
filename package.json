@@ -11,9 +11,9 @@
     "lint": "cross-env NODE_ENV=production eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts,.vue --fix"
   },
   "dependencies": {
-    "nuxt": "^3.16.2",
+    "nuxt": "^3.17.0",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue-router": "^4.5.1"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
@@ -34,7 +34,7 @@
     "eslint": "^8.57.1",
     "eslint-config-cmyr": "^1.1.33",
     "eslint-plugin-vue": "^9.33.0",
-    "sass": "^1.86.3",
+    "sass": "^1.87.0",
     "typescript": "^5.8.3"
   }
 }
