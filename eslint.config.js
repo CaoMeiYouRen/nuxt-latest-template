@@ -18,7 +18,7 @@ export default defineConfig([
     {
         rules: {
             'vue/multi-word-component-names': 0,
-            'no-undef': 0
-        }
-    }
+            'no-undef': 0,
+        },
+    },
 ])
