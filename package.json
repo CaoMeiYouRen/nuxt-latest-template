@@ -23,7 +23,8 @@
         "overrides": {
             "vite": "^6.2.6",
             "parse-git-config": "^3.0.0",
-            "esbuild": "^0.25.0"
+            "esbuild": "^0.25.0",
+            "brace-expansion": "^2.0.2"
         }
     },
     "devDependencies": {
