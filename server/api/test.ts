@@ -1,2 +1,2 @@
-export default defineEventHandler(async (event) => ({ message: 'Hello World!' }),
+export default defineEventHandler(async (_event) => ({ message: 'Hello World!' }),
 )
