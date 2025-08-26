@@ -34,7 +34,7 @@
         "eslint": "^9.34.0",
         "eslint-config-cmyr": "2.0.0-beta.15",
         "eslint-plugin-vue": "^10.4.0",
-        "sass": "^1.90.0",
+        "sass": "^1.91.0",
         "typescript": "^5.9.2"
     }
 }
