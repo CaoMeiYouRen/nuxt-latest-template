@@ -1,6 +1,6 @@
 <template>
     <div>
-        {{ data.message }}
+        {{ data?.message }}
         <!-- <pre>{{ data }}</pre> -->
         <NuxtWelcome />
     </div>
