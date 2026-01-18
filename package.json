@@ -39,7 +39,7 @@
         "cross-env": "^10.1.0",
         "eslint": "^9.39.2",
         "eslint-config-cmyr": "2.1.0",
-        "eslint-plugin-vue": "^10.6.2",
+        "eslint-plugin-vue": "^10.7.0",
         "happy-dom": "^20.3.0",
         "sass": "^1.97.2",
         "typescript": "^5.9.3",
