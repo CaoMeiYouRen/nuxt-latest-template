@@ -34,8 +34,8 @@ importers:
         specifier: ^1.13.0
         version: 1.13.0(@typescript-eslint/utils@8.54.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-sfc@3.5.27)(eslint-import-resolver-node@0.3.9)(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       '@nuxt/test-utils':
-        specifier: ^3.21.0
-        version: 3.21.0(happy-dom@20.5.0)(magicast@0.5.1)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.0)(happy-dom@20.5.0)(jiti@2.6.1)(sass@1.97.3)(terser@5.46.0)(yaml@2.8.2))
+        specifier: ^3.23.0
+        version: 3.23.0(happy-dom@20.5.0)(magicast@0.5.1)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.0)(happy-dom@20.5.0)(jiti@2.6.1)(sass@1.97.3)(terser@5.46.0)(yaml@2.8.2))
       cross-env:
         specifier: ^10.1.0
         version: 10.1.0
@@ -635,10 +635,6 @@ packages:
       vite-plugin-eslint2:
         optional: true
 
-  '@nuxt/kit@3.20.1':
-    resolution: {integrity: sha512-TIslaylfI5kd3AxX5qts0qyrIQ9Uq3HAA1bgIIJ+c+zpDfK338YS+YrCWxBBzDMECRCbAS58mqAd2MtJfG1ENA==}
-    engines: {node: '>=18.12.0'}
-
   '@nuxt/kit@3.21.0':
     resolution: {integrity: sha512-KMTLK/dsGaQioZzkYUvgfN9le4grNW54aNcA1jqzgVZLcFVy4jJfrJr5WZio9NT2EMfajdoZ+V28aD7BRr4Zfw==}
     engines: {node: '>=18.12.0'}
@@ -662,9 +658,9 @@ packages:
     engines: {node: '>=18.12.0'}
     hasBin: true
 
-  '@nuxt/test-utils@3.21.0':
-    resolution: {integrity: sha512-A6XExfgHq88+XuXAU4MMr5QBHS2mWA5qRVSvsMPP2U+YSsnk+Vt7P7dxbvJPE4+n6LHbC1IM0QjTVteo+VCxOA==}
-    engines: {node: ^20.0.0 || ^22.0.0 || >=24.0.0}
+  '@nuxt/test-utils@3.23.0':
+    resolution: {integrity: sha512-NZKWSwvfIiTO2qhMoJHVbUQLgJMe96J9ccLhPPqN5+a/XzISZ027LG9wWVp1tC5oB0qQ3eUDhrxmq6Lj8EQLMQ==}
+    engines: {node: ^20.11.1 || ^22.0.0 || >=24.0.0}
     peerDependencies:
       '@cucumber/cucumber': ^10.3.1 || >=11.0.0
       '@jest/globals': ^29.5.0 || >=30.0.0
@@ -2213,14 +2209,6 @@ packages:
     peerDependencies:
       esbuild: ^0.25.0
 
-  c12@3.3.2:
-    resolution: {integrity: sha512-QkikB2X5voO1okL3QsES0N690Sn/K9WokXqUsDQsWy5SnYb+psYQFGA10iy1bZHj3fjISKsI67Q90gruvWWM3A==}
-    peerDependencies:
-      magicast: '*'
-    peerDependenciesMeta:
-      magicast:
-        optional: true
-
   c12@3.3.3:
     resolution: {integrity: sha512-750hTRvgBy5kcMNPdh95Qo+XUBeGo8C7nsKSmedDmaQI+E0r82DwHeM6vBewDe4rGFbnxoa4V9pw+sPh5+Iz8Q==}
     peerDependencies:
@@ -2590,8 +2578,8 @@ packages:
     resolution: {integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==}
     engines: {node: '>=12'}
 
-  dotenv@17.2.3:
-    resolution: {integrity: sha512-JVUnt+DUIzu87TABbhPmNfVdBDt18BLOWjMUFJMSi/Qqg7NTYtabbvSNJGOJ7afbRuv9D/lngizHtP7QyLQ+9w==}
+  dotenv@17.2.4:
+    resolution: {integrity: sha512-mudtfb4zRB4bVvdj0xRo+e6duH1csJRM8IukBqfTRvHotn9+LBXB8ynAidP9zHqoRC/fsllXgk4kCKlR21fIhw==}
     engines: {node: '>=12'}
 
   dunder-proto@1.0.1:
@@ -3123,11 +3111,18 @@ packages:
     resolution: {integrity: sha512-O1Ld7Dr+nqPnmGpdhzLmMTQ4vAsD+rHwMm1NLUmoUFFymBOMKxCCrtDxqdBRYXdeEPEi3SyoR4TizJLQrnKBNA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  h3@1.15.4:
-    resolution: {integrity: sha512-z5cFQWDffyOe4vQ9xIqNfCZdV4p//vy6fBnr8Q1AWnVZ0teurKMG66rLj++TKwKPUP3u7iMUvrvKaEUiQw2QWQ==}
-
   h3@1.15.5:
     resolution: {integrity: sha512-xEyq3rSl+dhGX2Lm0+eFQIAzlDN6Fs0EcC4f7BNUmzaRX/PTzeuM+Tr2lHB8FoXggsQIeXLj8EDVgs5ywxyxmg==}
+
+  h3@2.0.1-rc.13:
+    resolution: {integrity: sha512-1g+GVBDFygRwLEw6CIbFME99M1QiHZfE0bCzXbqOKEDHz23L/RlMJZkIwQl/mJMAauA9G3oO9pSL4tKDpvgagQ==}
+    engines: {node: '>=20.11.1'}
+    hasBin: true
+    peerDependencies:
+      crossws: ^0.4.1
+    peerDependenciesMeta:
+      crossws:
+        optional: true
 
   happy-dom@20.5.0:
     resolution: {integrity: sha512-VQe+Q5CYiGOgcCERXhcfNsbnrN92FDEKciMH/x6LppU9dd0j4aTjCTlqONFOIMcAm/5JxS3+utowbXV1OoFr+g==}
@@ -3723,9 +3718,6 @@ packages:
     resolution: {integrity: sha512-LA4ZjwlnUblHVgq0oBF3Jl/6h/Nvs5fzBLwdEF4nuxnFdsfajde4WfxtJr3CaiH+F6ewcIB/q4jQ4UzPyid+CQ==}
     hasBin: true
 
-  node-mock-http@1.0.3:
-    resolution: {integrity: sha512-jN8dK25fsfnMrVsEhluUTPkBFY+6ybu7jSB1n+ri/vOGjJxU8J9CZhpSGkHXSkFjtUhbmoncG/YG9ta5Ludqog==}
-
   node-mock-http@1.0.4:
     resolution: {integrity: sha512-8DY+kFsDkNXy1sJglUfuODx1/opAGJGyrTuFqEoN90oRc2Vk0ZbD4K2qmKXBBEhZQzdKHIVfEJpDU8Ak2NJEvQ==}
 
@@ -3767,6 +3759,11 @@ packages:
 
   nypm@0.6.4:
     resolution: {integrity: sha512-1TvCKjZyyklN+JJj2TS3P4uSQEInrM/HkkuSXsEzm1ApPgBffOn8gFguNnZf07r/1X6vlryfIqMUkJKQMzlZiw==}
+    engines: {node: '>=18'}
+    hasBin: true
+
+  nypm@0.6.5:
+    resolution: {integrity: sha512-K6AJy1GMVyfyMXRVB88700BJqNUkByijGJM8kEHpLdcAt+vSQAVfkWWHYzuRXHSY6xA2sNc5RjTj0p9rE2izVQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -3937,9 +3934,6 @@ packages:
 
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
-
-  perfect-debounce@2.0.0:
-    resolution: {integrity: sha512-fkEH/OBiKrqqI/yIgjR92lMfs2K8105zt/VT6+7eTjNwisrsh47CeIED9z58zI7DfKdH3uHAn25ziRZn3kgAow==}
 
   perfect-debounce@2.1.0:
     resolution: {integrity: sha512-LjgdTytVFXeUgtHZr9WYViYSM/g8MkcTPYDlPa3cDqMirHjKiSZPYd6DoL7pK8AJQr+uWkQvCjHNdiMqsrJs+g==}
@@ -4474,6 +4468,11 @@ packages:
     engines: {node: '>=20.16.0'}
     hasBin: true
 
+  srvx@0.11.1:
+    resolution: {integrity: sha512-hs+BDmweGNT0DHlcsgB52BOKOn32v1g+CtyCavqstcz19KUDZsAoLVLFV0y03xAOd0KiXbgsguPcCivR6Lj5PA==}
+    engines: {node: '>=20.16.0'}
+    hasBin: true
+
   stable-hash-x@0.2.0:
     resolution: {integrity: sha512-o3yWv49B/o4QZk5ZcsALc6t0+eCelPc44zZsLtCQnZPDwFpDYSWcDnrv2TtMmMbQ7uKo3J0HTURCqckw23czNQ==}
     engines: {node: '>=12.0.0'}
@@ -4696,9 +4695,6 @@ packages:
     resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
     engines: {node: '>=14.17'}
     hasBin: true
-
-  ufo@1.6.1:
-    resolution: {integrity: sha512-9a4/uxlTWJ4+a5i0ooc1rU7C7YOw3wT+UGqdeNNHWnOF9qcMBgLRS+4IYUqbczewFx4mLEig6gawh7X6mFlEkA==}
 
   ufo@1.6.3:
     resolution: {integrity: sha512-yDJTmhydvl5lJzBmy/hyOAA0d+aqCBuwl818haVdYCRrWV84o7YyeVm4QlVHStqNrrJSTb6jKuFAVqAFsr+K3Q==}
@@ -5743,7 +5739,7 @@ snapshots:
       giget: 2.0.0
       jiti: 2.6.1
       listhen: 1.9.0
-      nypm: 0.6.4
+      nypm: 0.6.5
       ofetch: 1.5.1
       ohash: 2.0.11
       pathe: 2.0.3
@@ -5803,7 +5799,7 @@ snapshots:
       launch-editor: 2.12.0
       local-pkg: 1.1.2
       magicast: 0.5.1
-      nypm: 0.6.4
+      nypm: 0.6.5
       ohash: 2.0.11
       pathe: 2.0.3
       perfect-debounce: 2.1.0
@@ -5891,32 +5887,6 @@ snapshots:
       - typescript
       - utf-8-validate
       - vite
-
-  '@nuxt/kit@3.20.1(magicast@0.5.1)':
-    dependencies:
-      c12: 3.3.2(magicast@0.5.1)
-      consola: 3.4.2
-      defu: 6.1.4
-      destr: 2.0.5
-      errx: 0.1.0
-      exsolve: 1.0.8
-      ignore: 7.0.5
-      jiti: 2.6.1
-      klona: 2.0.6
-      knitwork: 1.3.0
-      mlly: 1.8.0
-      ohash: 2.0.11
-      pathe: 2.0.3
-      pkg-types: 2.3.0
-      rc9: 2.1.2
-      scule: 1.3.0
-      semver: 7.7.3
-      tinyglobby: 0.2.15
-      ufo: 1.6.1
-      unctx: 2.5.0
-      untyped: 2.0.0
-    transitivePeerDependencies:
-      - magicast
 
   '@nuxt/kit@3.21.0(magicast@0.5.1)':
     dependencies:
@@ -6059,10 +6029,11 @@ snapshots:
     transitivePeerDependencies:
       - magicast
 
-  '@nuxt/test-utils@3.21.0(happy-dom@20.5.0)(magicast@0.5.1)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.0)(happy-dom@20.5.0)(jiti@2.6.1)(sass@1.97.3)(terser@5.46.0)(yaml@2.8.2))':
+  '@nuxt/test-utils@3.23.0(happy-dom@20.5.0)(magicast@0.5.1)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.0)(happy-dom@20.5.0)(jiti@2.6.1)(sass@1.97.3)(terser@5.46.0)(yaml@2.8.2))':
     dependencies:
-      '@nuxt/kit': 3.20.1(magicast@0.5.1)
-      c12: 3.3.2(magicast@0.5.1)
+      '@clack/prompts': 1.0.0-alpha.9
+      '@nuxt/kit': 3.21.0(magicast@0.5.1)
+      c12: 3.3.3(magicast@0.5.1)
       consola: 3.4.2
       defu: 6.1.4
       destr: 2.0.5
@@ -6070,19 +6041,21 @@ snapshots:
       exsolve: 1.0.8
       fake-indexeddb: 6.2.5
       get-port-please: 3.2.0
-      h3: 1.15.4
+      h3: 1.15.5
+      h3-next: h3@2.0.1-rc.13
       local-pkg: 1.1.2
       magic-string: 0.30.21
       node-fetch-native: 1.6.7
-      node-mock-http: 1.0.3
+      node-mock-http: 1.0.4
+      nypm: 0.6.5
       ofetch: 1.5.1
       pathe: 2.0.3
-      perfect-debounce: 2.0.0
+      perfect-debounce: 2.1.0
       radix3: 1.1.2
       scule: 1.3.0
       std-env: 3.10.0
       tinyexec: 1.0.2
-      ufo: 1.6.1
+      ufo: 1.6.3
       unplugin: 2.3.11
       vitest-environment-nuxt: 1.0.1(happy-dom@20.5.0)(magicast@0.5.1)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.0)(happy-dom@20.5.0)(jiti@2.6.1)(sass@1.97.3)(terser@5.46.0)(yaml@2.8.2))
       vue: 3.5.27(typescript@5.9.3)
@@ -6090,6 +6063,7 @@ snapshots:
       happy-dom: 20.5.0
       vitest: 4.0.18(@types/node@25.2.0)(happy-dom@20.5.0)(jiti@2.6.1)(sass@1.97.3)(terser@5.46.0)(yaml@2.8.2)
     transitivePeerDependencies:
+      - crossws
       - magicast
       - typescript
 
@@ -7464,29 +7438,12 @@ snapshots:
       esbuild: 0.25.12
       load-tsconfig: 0.2.5
 
-  c12@3.3.2(magicast@0.5.1):
-    dependencies:
-      chokidar: 4.0.3
-      confbox: 0.2.2
-      defu: 6.1.4
-      dotenv: 17.2.3
-      exsolve: 1.0.8
-      giget: 2.0.0
-      jiti: 2.6.1
-      ohash: 2.0.11
-      pathe: 2.0.3
-      perfect-debounce: 2.0.0
-      pkg-types: 2.3.0
-      rc9: 2.1.2
-    optionalDependencies:
-      magicast: 0.5.1
-
   c12@3.3.3(magicast@0.5.1):
     dependencies:
       chokidar: 5.0.0
       confbox: 0.2.2
       defu: 6.1.4
-      dotenv: 17.2.3
+      dotenv: 17.2.4
       exsolve: 1.0.8
       giget: 2.0.0
       jiti: 2.6.1
@@ -7838,7 +7795,7 @@ snapshots:
 
   dotenv@16.6.1: {}
 
-  dotenv@17.2.3: {}
+  dotenv@17.2.4: {}
 
   dunder-proto@1.0.1:
     dependencies:
@@ -8459,7 +8416,7 @@ snapshots:
       consola: 3.4.2
       defu: 6.1.4
       node-fetch-native: 1.6.7
-      nypm: 0.6.4
+      nypm: 0.6.5
       pathe: 2.0.3
 
   git-up@8.1.1:
@@ -8522,18 +8479,6 @@ snapshots:
     dependencies:
       duplexer: 0.1.2
 
-  h3@1.15.4:
-    dependencies:
-      cookie-es: 1.2.2
-      crossws: 0.3.5
-      defu: 6.1.4
-      destr: 2.0.5
-      iron-webcrypto: 1.2.1
-      node-mock-http: 1.0.3
-      radix3: 1.1.2
-      ufo: 1.6.1
-      uncrypto: 0.1.3
-
   h3@1.15.5:
     dependencies:
       cookie-es: 1.2.2
@@ -8545,6 +8490,11 @@ snapshots:
       radix3: 1.1.2
       ufo: 1.6.3
       uncrypto: 0.1.3
+
+  h3@2.0.1-rc.13:
+    dependencies:
+      rou3: 0.7.12
+      srvx: 0.11.1
 
   happy-dom@20.5.0:
     dependencies:
@@ -9199,8 +9149,6 @@ snapshots:
 
   node-gyp-build@4.8.4: {}
 
-  node-mock-http@1.0.3: {}
-
   node-mock-http@1.0.4: {}
 
   node-releases@2.0.27: {}
@@ -9348,6 +9296,12 @@ snapshots:
       - yaml
 
   nypm@0.6.4:
+    dependencies:
+      citty: 0.2.0
+      pathe: 2.0.3
+      tinyexec: 1.0.2
+
+  nypm@0.6.5:
     dependencies:
       citty: 0.2.0
       pathe: 2.0.3
@@ -9585,8 +9539,6 @@ snapshots:
   pathe@1.1.2: {}
 
   pathe@2.0.3: {}
-
-  perfect-debounce@2.0.0: {}
 
   perfect-debounce@2.1.0: {}
 
@@ -10171,6 +10123,8 @@ snapshots:
 
   srvx@0.10.1: {}
 
+  srvx@0.11.1: {}
+
   stable-hash-x@0.2.0: {}
 
   stackback@0.0.2: {}
@@ -10422,8 +10376,6 @@ snapshots:
       - supports-color
 
   typescript@5.9.3: {}
-
-  ufo@1.6.1: {}
 
   ufo@1.6.3: {}
 
@@ -10701,7 +10653,7 @@ snapshots:
 
   vitest-environment-nuxt@1.0.1(happy-dom@20.5.0)(magicast@0.5.1)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.0)(happy-dom@20.5.0)(jiti@2.6.1)(sass@1.97.3)(terser@5.46.0)(yaml@2.8.2)):
     dependencies:
-      '@nuxt/test-utils': 3.21.0(happy-dom@20.5.0)(magicast@0.5.1)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.0)(happy-dom@20.5.0)(jiti@2.6.1)(sass@1.97.3)(terser@5.46.0)(yaml@2.8.2))
+      '@nuxt/test-utils': 3.23.0(happy-dom@20.5.0)(magicast@0.5.1)(typescript@5.9.3)(vitest@4.0.18(@types/node@25.2.0)(happy-dom@20.5.0)(jiti@2.6.1)(sass@1.97.3)(terser@5.46.0)(yaml@2.8.2))
     transitivePeerDependencies:
       - '@cucumber/cucumber'
       - '@jest/globals'
@@ -10709,6 +10661,7 @@ snapshots:
       - '@testing-library/vue'
       - '@vitest/ui'
       - '@vue/test-utils'
+      - crossws
       - happy-dom
       - jsdom
       - magicast
