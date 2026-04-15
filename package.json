@@ -13,7 +13,7 @@
         "typecheck": "nuxt typecheck"
     },
     "dependencies": {
-        "nuxt": "^4.4.2",
+        "nuxt": "4.3.1",
         "vue": "^3.5.32",
         "vue-router": "^5.0.4"
     },
@@ -24,6 +24,8 @@
         ],
         "overrides": {
             "vite": "$vite",
+            "@vitejs/plugin-vue": "6.0.4",
+            "@vitejs/plugin-vue-jsx": "^5.1.5",
             "esbuild": "^0.25.0",
             "brace-expansion": "^2.0.3",
             "tar": "^7.5.2",
@@ -36,14 +38,16 @@
         "@nuxt/eslint": "^1.15.2",
         "@nuxt/eslint-config": "^1.15.2",
         "@nuxt/test-utils": "^4.0.2",
+        "@vue/compiler-sfc": "3.5.32",
         "cross-env": "^10.1.0",
         "eslint": "^9.39.2",
         "eslint-config-cmyr": "2.3.0",
         "eslint-plugin-vue": "^10.8.0",
         "happy-dom": "^20.8.9",
+        "magic-string": "0.30.21",
         "sass": "^1.99.0",
         "typescript": "^5.9.3",
-        "vite": "^7.3.2",
+        "vite": "7.3.1",
         "vitest": "^4.1.4",
         "vue-tsc": "^3.2.6"
     }
