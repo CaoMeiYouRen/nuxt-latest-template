@@ -5,12 +5,17 @@ overrides:
   vite: "$vite"
   '@vitejs/plugin-vue': 6.0.4
   '@vitejs/plugin-vue-jsx': ^5.1.5
-  esbuild: ^0.25.0
+  '@babel/core': ^7.29.6
+  ajv: ^6.14.0
   brace-expansion: ^2.0.3
-  tar: ^7.5.11
-  node-forge: ^1.4.0
+  esbuild: ^0.28.1
   glob: ^10.5.0
-  js-yaml: ^4.1.1
+  js-yaml: ^4.2.0
+  launch-editor: ^2.14.1
+  lodash: ^4.18.0
+  node-forge: ^1.4.0
+  shell-quote: ^1.8.4
+  tar: ^7.5.16
   flatted: ^3.4.2
   h3: ^1.15.6
   defu: ^6.1.5
