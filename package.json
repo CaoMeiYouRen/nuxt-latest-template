@@ -26,7 +26,7 @@
         "eslint": "^9.39.2",
         "eslint-config-cmyr": "2.3.1",
         "eslint-plugin-vue": "^10.9.2",
-        "happy-dom": "^20.11.0",
+        "happy-dom": "^20.11.1",
         "magic-string": "1.0.0",
         "sass": "^1.101.0",
         "typescript": "^6.0.3",
