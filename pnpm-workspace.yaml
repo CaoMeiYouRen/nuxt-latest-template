@@ -2,7 +2,6 @@ packages:
   - .
 
 overrides:
-  vite: "$vite"
   '@vitejs/plugin-vue': 6.0.4
   '@vitejs/plugin-vue-jsx': ^5.1.5
   '@babel/core': ^7.29.6
