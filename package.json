@@ -28,7 +28,7 @@
         "eslint-plugin-vue": "^10.10.0",
         "happy-dom": "^20.14.0",
         "magic-string": "1.2.3",
-        "sass": "^1.103.1",
+        "sass": "^1.104.0",
         "typescript": "^6.0.3",
         "vite": "^8.2.0",
         "vitest": "^4.1.11",
