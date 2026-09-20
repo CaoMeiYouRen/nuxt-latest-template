@@ -21,7 +21,7 @@
         "@nuxt/eslint": "^1.17.0",
         "@nuxt/eslint-config": "^1.17.0",
         "@nuxt/test-utils": "^4.3.2",
-        "@vue/compiler-sfc": "3.5.42",
+        "@vue/compiler-sfc": "3.5.43",
         "cross-env": "^10.1.0",
         "eslint": "^9.39.2",
         "eslint-config-cmyr": "2.3.1",
