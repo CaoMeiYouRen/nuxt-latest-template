@@ -24,8 +24,10 @@ overrides:
   immutable: ^5.1.8
   svgo: ^4.0.2
   postcss: ^8.5.18
-  brace-expansion@^1: ^1.1.16
-  brace-expansion@^5: ^5.0.8
+  brace-expansion@^1: ^1.1.20
+  brace-expansion@^5: ^5.0.12
+  brace-expansion@2: ^2.1.6
+  source-map-js: ^1.2.2
 allowBuilds:
   "@parcel/watcher": true
   esbuild: true
